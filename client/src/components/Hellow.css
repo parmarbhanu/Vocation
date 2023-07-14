@@ -1,0 +1,23 @@
+h1 {
+    animation-duration: 13s;
+    color: rgb(29, 30, 29);
+     background-image: linear-gradient(to right,#5680E9,#84CEEB,#5AB9EA,#C1C8E4,#8860D0);
+    animation-name: slidein;
+    animation-iteration-count: 1;
+    /* text-align: center; */
+}
+
+
+
+@keyframes slidein {
+  0% {
+    margin-left: 0%;
+  }
+  50% {
+    margin-left: 600px;
+
+  }
+  100% {
+    margin-left: 0%;
+  }
+}

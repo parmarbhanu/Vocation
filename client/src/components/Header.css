@@ -1,0 +1,51 @@
+.navbar-expand-lg .navbar-nav {
+    background: linear-gradient(135deg, rgb(148, 223, 223) 60%, rgb(211, 171, 207));
+    border-radius: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.navbar{
+    background-color: black;
+}
+
+.nav-link {
+    display: block;
+    padding: 0.5rem 1rem;
+    color: whitesmoke;
+    text-decoration: none;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+}
+.navbar-toggler {
+    padding: 0.25rem 0.75rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color: #f8f9fa;
+    border: 1px solid #adb5bd;
+    border-radius: 0.25rem;
+    transition: box-shadow .15s ease-in-out;
+}
+.navbar-light .navbar-toggler {
+    color: rgb(0 0 0 / 25%);
+    border-color: #212529;
+}
+.dropdown-menu.show {
+    display: inline-block;
+}
+.dropdown-menu {
+    position: absolute;
+    display: none;
+    min-width: 7rem;
+    padding: 0.5rem 0;
+    margin: 0;
+    font-size: 1rem;
+    color: #212529;
+    text-align: left;
+    list-style: none;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 2px solid #212529;
+    border-radius: 1.0rem;
+}
+.nav-iem{
+    border: 1px solid gray;
+}
